@@ -3,7 +3,8 @@
 
 class Frase:
 
-    def __init__(self,lista):
+    def __init__(self,autor,lista):
+        self.autor = autor
         self.lista=lista
 
     def AgregarFrase(self,frase):
