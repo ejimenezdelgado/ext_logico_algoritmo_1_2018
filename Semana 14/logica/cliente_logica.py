@@ -1,8 +1,9 @@
 #Fecha: 16/05/2018
 
-from acceso_datos import ClienteAccesoDatos
+from acceso_datos.cliente_acceso_datos \
+    import ClienteAccesoDatos
 
-class cliente_logica:
+class ClienteLogica:
     def CrearCliente(self, cliente):
         clienteAccesoDatos= ClienteAccesoDatos()
         clienteAccesoDatos.CrearCliente(cliente)

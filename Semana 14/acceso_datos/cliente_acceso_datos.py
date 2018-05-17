@@ -2,7 +2,7 @@
 #Objetivo: Realizar un sistema para el manejo de clientes
 
 from constantes import path
-from entidades import Cliente
+from entidades.cliente import Cliente
 
 class ClienteAccesoDatos:
 
@@ -11,7 +11,7 @@ class ClienteAccesoDatos:
 
     #Crear un cliente
     def CrearCliente(self,cliente):
-        archivo = open(path + "\archivos\cliente.txt", "a+")
+        archivo = open(path + "\\archivos\cliente.txt", "a+")
         archivo.write(str(cliente.cedula) + "," +
                       str(cliente.nombre) + "," +
                       str(cliente.sexo) + "," +
