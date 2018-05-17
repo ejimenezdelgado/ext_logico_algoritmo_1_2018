@@ -9,3 +9,20 @@ class Frase:
 
     def AgregarFrase(self,frase):
         self.lista.append(frase)
+
+    def PrimerFrase(self):
+        if len(self.lista)>0:
+            return self.lista[0]
+        else:
+            return "no hay nada"
+
+    def UltimaFrase(self):
+        if len(self.lista)>1:
+            return self.lista[len(self.lista)-1]
+        else:
+            return "no hay nada"
+
+    def Imprimir(self):
+        print("El autor es :", self.autor)
+        for item in self.lista:
+            print(item)
