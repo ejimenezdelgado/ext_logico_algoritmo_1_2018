@@ -4,6 +4,8 @@
 #Fecha:23/05/2018
 #Objetivo: Clase TiendaPelicula
 
+from Peliculas.Entidades.Pelicula import Pelicula
+
 class TiendaPelicula():
 
     listaPeliculas=[]
