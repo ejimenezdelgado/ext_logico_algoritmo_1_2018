@@ -63,8 +63,9 @@ def MenuPrincipal():
             romantica.SetNumeroActores(data4)
             romantica.SetAno(data5)
             romantica.SetActorPrincipal(data6)
-            romantica.SetCantidadMuertos(kisses)
+            romantica.SetCantidadBesos(kisses)
             Zonax.AgregarPelicula(kisses)
+            return MenuPrincipal()
         else:
             jokes = input('Numero de bromas:')
             comedia = Comedia()
@@ -74,8 +75,9 @@ def MenuPrincipal():
             comedia.SetNumeroActores(data4)
             comedia.SetAno(data5)
             comedia.SetActorPrincipal(data6)
-            comedia.SetCantidadMuertos(jokes)
+            comedia.SetCantidadBromas(jokes)
             Zonax.AgregarPelicula(comedia)
+            return MenuPrincipal()
 
     elif option == '2':
         print('\nEditar  pelicula\n')
@@ -138,11 +140,11 @@ pelicula1.SetCantidadMuertos(454)
 
 pelicula2=Romantica()
 pelicula2.SetId(233424)
-pelicula2.SetNombre('La vida despues de la muerte')
-pelicula2.SetDirector('Manuel')
+pelicula2.SetNombre('El caotico destino del amor')
+pelicula2.SetDirector('Marvin')
 pelicula2.SetNumeroActores(456)
 pelicula2.SetAno(2016)
-pelicula2.SetActorPrincipal('Romeo')
+pelicula2.SetActorPrincipal('Marvin Hidalgo')
 pelicula2.SetCantidadBesos(50)
 
 pelicula3=Comedia()
