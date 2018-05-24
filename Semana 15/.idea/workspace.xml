@@ -52,11 +52,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TiendaPelicula.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TiendaPelicula.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Peliculas/Controlador/TiendaPelicula.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1885">
               <caret line="50" column="37" lean-forward="false" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Peliculas/Vista/Main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="15" column="41" lean-forward="false" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -69,6 +79,7 @@
       <list>
         <option value="$PROJECT_DIR$/Peliculas/Entidades/Accion.py" />
         <option value="$PROJECT_DIR$/Peliculas/Controlador/TiendaPelicula.py" />
+        <option value="$PROJECT_DIR$/Peliculas/Vista/Main.py" />
       </list>
     </option>
   </component>
@@ -110,7 +121,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Entidades" />
+              <option name="myItemId" value="Vista" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -125,10 +136,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Peliculas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controlador" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -304,6 +311,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1885">
           <caret line="50" column="37" lean-forward="false" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Peliculas/Vista/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="15" column="41" lean-forward="false" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
           <folding />
         </state>
       </provider>
